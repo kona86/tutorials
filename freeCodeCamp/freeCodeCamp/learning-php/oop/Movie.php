@@ -1,9 +1,9 @@
 <?php
 class Movie
 {
-    public $stitle;
+    public $title;
     private $rating;
-    function    __construct($title, $rating)
+    function   __construct($title, $rating)
     {
         $this->title = $title;
         $this->set_rating($rating);
@@ -22,4 +22,6 @@ class Movie
 $avengers = new Movie("avengers", "G");
 $love_hurts = new Movie("Love Hurts", 3.7);
 
-echo $love_hurts->rating;
+echo $avengers->get_rating();
+echo "<br>";
+echo $love_hurts->get_rating();
