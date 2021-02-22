@@ -14,7 +14,10 @@
         echo "$i <br>";
     }
 
-    $
+    $luckyNumbers = array(4, 8, 14, 16, 23, 42);
+    for ($i = 0; $i < count($luckyNumbers); $i++) {
+        echo " the lucky numbers is: $luckyNumbers[$i] <br>";
+    }
     ?>
 </body>
 
