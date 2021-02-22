@@ -11,7 +11,7 @@
 <body>
     <form action="switch.php" method="post">
         <input type="text" name="grade" id="">
-        <input type="submit" value="">
+        <input type="submit" value="Submit">
     </form>
     <?php
     $grade = $_POST["grade"];
