@@ -5,17 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>While Loops</title>
+    <title>For Loops</title>
 </head>
 
 <body>
     <?php
-    $index = 1;
-    while ($index <= 10) {
-        echo "<br>";
-        echo $index;
-        $index++;
-        }
+    for ($i = 1; $i <= 10; $i += 1) {
+        echo "$i <br>";
+    }
+    
     ?>
 </body>
 
